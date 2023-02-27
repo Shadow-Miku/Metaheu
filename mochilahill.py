@@ -47,3 +47,4 @@ knapsack_weight = 15
 solution, value = hill_climbing(items, knapsack_weight,10)
 print("Items seleccionados:", [items[i] for i in range(len(items)) if solution[i] == 1])
 print("Valor total:", value) #solucion peso y valor
+
